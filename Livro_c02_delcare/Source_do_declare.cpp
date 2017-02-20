@@ -28,4 +28,5 @@ int main()
 	std::cout << b;
 	std::cout << "\n";
 	std::cout << i;
+	std::cout << "\n";
 }
