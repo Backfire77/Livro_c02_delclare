@@ -2,6 +2,8 @@
 // Declaration & definnition examples
 #include <iostream> // alteração tua
 
+using namespace std;
+
 
 extern int i;	//declaration without definiton
 extern float f(float);	//function Declaration
@@ -25,8 +27,8 @@ int main()
 	f(b);
 	h(i);
 	//alteracao tua
-	std::cout << b;
-	std::cout << "\n";
-	std::cout << i;
-	std::cout << "\n";
+	cout << b;
+	cout << "\n";
+	cout << i;
+	cout << "\n";
 }
